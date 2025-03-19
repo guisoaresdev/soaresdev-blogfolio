@@ -16,7 +16,7 @@ export default async function Post() {
   return (
     <main>
       <Container>
-        <MoreProjects projects={projects} title="Portfolio" />
+        <MoreProjects projects={projects} title="Portfolio" all={false} />
       </Container>
     </main>
   );
