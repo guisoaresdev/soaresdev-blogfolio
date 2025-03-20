@@ -9,7 +9,7 @@ export function Hero() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
             <span className="text-blue-600">Desenvolvedor</span> Full Stack
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl">
+          <p className="text-xl accent-7 dark:accent-1 max-w-2xl">
             Criando soluções web modernas e eficientes com as melhores
             tecnologias do mercado. Especializado em React, Next.js, Node.js e
             arquiteturas escaláveis.

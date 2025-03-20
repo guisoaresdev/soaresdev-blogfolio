@@ -25,13 +25,13 @@ export async function ProjectPreview({
   featured,
 }: Props) {
   return (
-    <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+    <div className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow tracking-tighter leading-tight">
       <div className="relative h-48 w-full">
         <Image src={imageUrl} alt={title} fill className="object-cover" />
       </div>
       <div className="p-6 space-y-4">
         <h3 className="text-xl font-bold">{title}</h3>
-        <p className="text-gray-600">{description}</p>
+        <p className="accent-1">{description}</p>
         <div className="flex flex-wrap gap-2">
           {tags.map((tag) => (
             <span
@@ -48,7 +48,7 @@ export async function ProjectPreview({
               href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-700 hover:text-blue-600 flex items-center"
+              className="accent-1 hover:text-blue-600 flex items-center"
             >
               <GitHubIcon className="h-5 w-5 mr-1" /> Código
             </a>

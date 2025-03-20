@@ -118,7 +118,7 @@ export function Footer() {
           ))}
         </div>
 
-        {/* Newsletter subscription */}
+        {/* Newsletter subscription
         <div className="border-t border-gray-800 pt-8 pb-6">
           <div className="max-w-xl mx-auto text-center mb-8">
             <h3 className="font-bold text-lg mb-3">
@@ -144,6 +144,7 @@ export function Footer() {
             </form>
           </div>
         </div>
+        */}
 
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-6 text-center text-gray-400 text-sm">

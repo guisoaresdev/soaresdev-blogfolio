@@ -14,7 +14,7 @@ export function MoreProjects({ projects, title, all }: Props) {
     <section>
       <div className="container mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
+          <h2 className="mb-8 text-5xl md:text-5xl font-semibold tracking-tighter leading-tight">
             {title}
           </h2>
           {all && (
@@ -26,7 +26,7 @@ export function MoreProjects({ projects, title, all }: Props) {
             </Link>
           )}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 tracking-lighter leading-tight">
           {projects.map((project) => (
             <ProjectPreview
               key={project.slug}
