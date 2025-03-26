@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: `SoaresDev`,
-  description: `A statically generated blog and portfolio using Next.js, Nextra and ${CMS_NAME}.`,
+  description: `Eu sou Guilherme Soares, um desenvolvedor full stack e esse é meu Blog/Portfolio.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
