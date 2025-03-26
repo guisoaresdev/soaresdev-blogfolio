@@ -2,7 +2,7 @@
 title: "CÓDIGO, VIDA E A MATRIX QUE NUM VEM"
 excerpt: "4 anos de experiência, projetinhos e um blog/portfolio. O que é ser um bom dev? Novas tecnologias e IA vieram pra ajudar, mas e o Matrix que num vem!?"
 coverImage: "/assets/blog/code-life-matrix/code-life-matrix.png"
-date: "2020-03-26T05:35:07.322Z"
+date: "2025-03-26T05:35:07.322Z"
 author:
   name: Guilherme Soares
   picture: "/assets/blog/authors/soaresdev.png"
